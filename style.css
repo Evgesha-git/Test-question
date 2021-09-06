@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+.massage{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.game{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 152px;
+    margin: 0 auto 50px;
+    border: 1px solid #000;
+}
+
+.tail{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#reset{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 25px;
+    background: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
